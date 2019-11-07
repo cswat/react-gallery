@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You will need to set up a config file (it's imported as config.js) in the src directory with an exported variable APIkey set to a [flickr API key](https://www.flickr.com/services/api/explore/flickr.photos.search) before this will function.
+
 ## Available Scripts
 
 In the project directory, you can run:
