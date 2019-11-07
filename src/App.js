@@ -12,7 +12,8 @@ import '../src/App.css'
 import SearchForm from './components/Search';
 import Nav from './components/Nav';
 import PhotoList from './components/Results';
-import NotFound from './components/NotFound';
+import FourOhFour from './components/FourOhFour';
+
 
 export default class App extends PureComponent {
 
@@ -92,7 +93,7 @@ export default class App extends PureComponent {
                       <Route path="/Skeleton" render={()=> <PhotoList data={this.state} search={1}/>}/>
                       <Route path="/Candy" render={()=> <PhotoList data={this.state} search={2}/>}/>
                       <Route path="/search" render={()=> <PhotoList data={this.state} /> }  />
-                      <Route component={NotFound} />
+                      <Route component={FourOhFour} />
                     </Switch>
               }
             </nav>
